@@ -1,0 +1,21 @@
+* {
+    color: brown;
+}
+    tbody > th:hover {
+        color: blue;
+    }
+    td:focus {
+        color: aqua;
+    }
+    th:nth-child(even) {
+        color: greenyellow;
+    }
+    td:nth-child(-n+2) {
+        color: blueviolet;
+    }
+    td:last-child {
+        color: grey;
+    }
+    td:nth-child(odd) {
+        color: hotpink;
+    }
